@@ -1,0 +1,14 @@
+name: VoteListener
+main: xyz.acrylicstyle.voteL.VoteListener
+version: "1.0"
+api-version: "1.15"
+softdepend:
+  - LuckPerms
+depend:
+  - TomeitoLib
+  - MiningPoints
+  - Votifier
+commands:
+  forcevote:
+    permission: votelistener.forcevote
+    usage: "/<command> <player>"
